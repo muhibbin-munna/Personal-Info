@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_welcome">
+
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.indian.youthcareerinfo.ui.HomeFragment"
+        android:label="Welcome"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_welcome"
+        android:name="com.indian.youthcareerinfo.ui.WelcomeFragment"
+        android:label="Welcome"
+        tools:layout="@layout/fragment_welcome" />
+    <fragment
+        android:id="@+id/nav_notification"
+        android:name="com.indian.youthcareerinfo.ui.NotificationFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_notification" />
+    <fragment
+        android:id="@+id/nav_upload_documents"
+        android:name="com.indian.youthcareerinfo.ui.UploadDocumentFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_upload_document" />
+
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.indian.youthcareerinfo.ui.LogoutFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_logout" />
+</navigation>

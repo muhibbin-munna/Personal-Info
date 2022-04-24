@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "720783589417",
+    "firebase_url": "https://indian-youth-career-info.firebaseio.com",
+    "project_id": "indian-youth-career-info",
+    "storage_bucket": "indian-youth-career-info.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:720783589417:android:0e19dbe4058a2bd3125c38",
+        "android_client_info": {
+          "package_name": "com.indian.youthcareerinfo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "720783589417-3bf5ddfrcu20gl1d3hlki1d77ncqk70r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDA5BQvRjJiDpPEXv71eJTmkfg8D5w9pMg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "720783589417-3bf5ddfrcu20gl1d3hlki1d77ncqk70r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

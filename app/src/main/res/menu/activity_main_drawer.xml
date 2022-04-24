@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_welcome"
+            android:icon="@drawable/ic_baseline_view_headline_24"
+            android:title="Welcome" />
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/ic_bell"
+            android:title="Notification SMS" />
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_upload_documents"
+            android:icon="@drawable/ic_upload"
+            android:title="Upload Documents" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Log Out" />
+    </group>
+</menu>
